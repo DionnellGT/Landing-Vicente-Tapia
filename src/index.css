@@ -113,13 +113,13 @@
 
 :root {
     /* Material 3 - paleta "Parcelas del Sur" (verde bosque / cobre / azul lago) */
-    --primary: #14422d;
+    --primary: #0000ff;
     --on-primary: #ffffff;
-    --primary-container: #2d5a43;
-    --on-primary-container: #9fcfb2;
-    --primary-fixed: #bceecf;
+    --primary-container: #2323ff;
+    --on-primary-container: #6b6bb1;
+    --primary-fixed: #a9a9ce;
     --primary-fixed-dim: #a1d1b4;
-    --on-primary-fixed: #002112;
+    --on-primary-fixed: #00004d;
 
     --secondary: #7d562d;
     --on-secondary: #ffffff;

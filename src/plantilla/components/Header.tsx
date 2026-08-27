@@ -45,7 +45,7 @@ export const Header = ({ data, onOpenMobileMenu }: HeaderProps) => {
           {data.links.map((link) => (
             <a
               key={link.id}
-              className="font-label-md text-label-xl font-bold text-on-surface-variant hover:text-primary transition-colors"
+              className="font-label-md text-label-xl font-bold text-[#0000ff] hover:text-[#0F0FFF] transition-colors"
               href={link.href}
             >
               {link.label}
