@@ -111,7 +111,7 @@ export const mapAbout = (bundle: ApiLandingBundle): AboutData => {
     body: sobreMi?.paragraph || "",
     image: sobreMi?.imagen || LOGO_URL,
     imageAlt: sobreMi?.titulo || BRAND_NAME,
-    featuredQuote: testimonios[0]?.descripcion || undefined,
+    featuredQuote: testimonios[1]?.descripcion || undefined,
   };
 };
 
