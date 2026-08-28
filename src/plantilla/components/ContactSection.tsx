@@ -47,7 +47,7 @@ export const ContactSection = ({ data, projects }: ContactSectionProps) => {
           <h2 className="font-headline-lg text-headline-lg font-semibold mb-stack-sm relative z-10">
             {data.headline}
           </h2>
-          <p className="font-body-md text-lg text-primary-fixed mb-stack-md relative z-10">
+          <p className="font-body-md text-lg text-white mb-stack-md relative z-10">
             {data.subtitle}
           </p>
 
