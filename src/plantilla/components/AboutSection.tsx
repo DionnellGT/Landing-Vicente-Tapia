@@ -42,7 +42,7 @@ export const AboutSection = ({ data }: AboutSectionProps) => {
                   <Star key={index} className="text-secondary w-4 h-4 fill-current" />
                 ))}
               </div>
-              <p className="font-body-md text-body-md text-on-surface-variant italic line-clamp-6">
+              <p className="font-body-md text-body-md text-on-surface-variant italic ">
                 "{data.featuredQuote}"
               </p>
             </div>
