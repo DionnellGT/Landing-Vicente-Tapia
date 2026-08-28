@@ -47,14 +47,14 @@ export const ContactSection = ({ data, projects }: ContactSectionProps) => {
           <h2 className="font-headline-lg text-headline-lg font-semibold mb-stack-sm relative z-10">
             {data.headline}
           </h2>
-          <p className="font-body-md text-body-md text-primary-fixed mb-stack-md relative z-10">
+          <p className="font-body-md text-lg text-primary-fixed mb-stack-md relative z-10">
             {data.subtitle}
           </p>
 
           <div className="flex flex-col gap-4 relative z-10">
             {data.contact.email && (
               <a
-                className="flex items-center gap-3 hover:text-primary-fixed transition-colors"
+                className="flex items-center gap-3 text-xl text-white hover:text-primary-fixed transition-colors"
                 href={`https://mail.google.com/mail/?view=cm&fs=1&to=${data.contact.email}&su=Consulta&body=Hola,%20me%20interesa...`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -65,7 +65,7 @@ export const ContactSection = ({ data, projects }: ContactSectionProps) => {
             )}
             {data.contact.phone && (
               <a
-                className="flex items-center gap-3 hover:text-primary-fixed transition-colors"
+                className="flex items-center gap-3 text-xl text-white hover:text-primary-fixed transition-colors"
                 href={`https://wa.me/${data.contact.phone}`}
                 target="_blank"
                 rel="noopener noreferrer"

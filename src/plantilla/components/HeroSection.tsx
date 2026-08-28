@@ -33,7 +33,7 @@ export const HeroSection = ({ data }: HeroSectionProps) => {
             {data.title}
           </h1>
 
-          <p className="font-body-lg text-body-lg text-on-surface-variant max-w-lg mb-stack-lg">
+          <p className="font-body-lg text-2xl/tight text-black max-w-xl mb-stack-lg">
             {data.descripcion}
           </p>
 
